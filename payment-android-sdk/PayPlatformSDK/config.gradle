@@ -1,0 +1,16 @@
+ext {
+    android = [
+
+            buildToolsVersion: '26.0.1',
+            minSdkVersion    : 15,
+            compileSdkVersion: 26,
+            targetSdkVersion : 26,
+            versionCode      : 1,
+            versionName      : "1.0.0"
+    ]
+    host = [
+
+            releaseHost: "https://pay.msymobile.com.cn",
+            debugHost  : "http://pay.app-platform.info"
+    ]
+}

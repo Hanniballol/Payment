@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F42C8A81FC7CC0800C809AF /* MTPTradeWayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F42C8A71FC7CC0800C809AF /* MTPTradeWayModel.m */; };
+		6F42C8AB1FC7F47300C809AF /* MTPTradeWayPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F42C8AA1FC7F47300C809AF /* MTPTradeWayPopupView.m */; };
+		6F42C8AE1FC7F48F00C809AF /* MTPTradeWayCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F42C8AD1FC7F48F00C809AF /* MTPTradeWayCollectionViewCell.m */; };
+		6F42C8B41FC8000800C809AF /* MTPWebViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F42C8B31FC8000800C809AF /* MTPWebViewManager.m */; };
+		6FF574AE1FC514D9000FD928 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574AD1FC514D9000FD928 /* AppDelegate.m */; };
+		6FF574B11FC514D9000FD928 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574B01FC514D9000FD928 /* ViewController.m */; };
+		6FF574B41FC514D9000FD928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF574B21FC514D9000FD928 /* Main.storyboard */; };
+		6FF574B61FC514D9000FD928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FF574B51FC514D9000FD928 /* Assets.xcassets */; };
+		6FF574B91FC514D9000FD928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FF574B71FC514D9000FD928 /* LaunchScreen.storyboard */; };
+		6FF574BC1FC514D9000FD928 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574BB1FC514D9000FD928 /* main.m */; };
+		6FF574E21FC52034000FD928 /* MTPHttpRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574E11FC52034000FD928 /* MTPHttpRequestManager.m */; };
+		6FF574E71FC529FC000FD928 /* MTPLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574E61FC529FC000FD928 /* MTPLogger.m */; };
+		6FF574ED1FC52E29000FD928 /* MTPRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574EC1FC52E29000FD928 /* MTPRandom.m */; };
+		6FF574F01FC52EBD000FD928 /* MTPSignatureSecret.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574EF1FC52EBD000FD928 /* MTPSignatureSecret.m */; };
+		6FF574F61FC556F7000FD928 /* MTPMD5Digest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574F51FC556F7000FD928 /* MTPMD5Digest.m */; };
+		6FF574FC1FC562B7000FD928 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574FB1FC562B7000FD928 /* OrderedDictionary.m */; };
+		6FF574FF1FC569CE000FD928 /* MTPHMACAuthentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF574FE1FC569CE000FD928 /* MTPHMACAuthentication.m */; };
+		6FF575021FC56C32000FD928 /* MTPBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF575011FC56C32000FD928 /* MTPBase64.m */; };
+		6FF575051FC5756D000FD928 /* MTPTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF575041FC5756D000FD928 /* MTPTool.m */; };
+		6FF575081FC576DA000FD928 /* MTPTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF575071FC576DA000FD928 /* MTPTextUtils.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6F42C8A61FC7CC0800C809AF /* MTPTradeWayModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPTradeWayModel.h; sourceTree = "<group>"; };
+		6F42C8A71FC7CC0800C809AF /* MTPTradeWayModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPTradeWayModel.m; sourceTree = "<group>"; };
+		6F42C8A91FC7F47300C809AF /* MTPTradeWayPopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPTradeWayPopupView.h; sourceTree = "<group>"; };
+		6F42C8AA1FC7F47300C809AF /* MTPTradeWayPopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPTradeWayPopupView.m; sourceTree = "<group>"; };
+		6F42C8AC1FC7F48F00C809AF /* MTPTradeWayCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPTradeWayCollectionViewCell.h; sourceTree = "<group>"; };
+		6F42C8AD1FC7F48F00C809AF /* MTPTradeWayCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPTradeWayCollectionViewCell.m; sourceTree = "<group>"; };
+		6F42C8B21FC8000800C809AF /* MTPWebViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPWebViewManager.h; sourceTree = "<group>"; };
+		6F42C8B31FC8000800C809AF /* MTPWebViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPWebViewManager.m; sourceTree = "<group>"; };
+		6FF574A91FC514D9000FD928 /* MTPToolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTPToolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF574AC1FC514D9000FD928 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6FF574AD1FC514D9000FD928 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6FF574AF1FC514D9000FD928 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6FF574B01FC514D9000FD928 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6FF574B31FC514D9000FD928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6FF574B51FC514D9000FD928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6FF574B81FC514D9000FD928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6FF574BA1FC514D9000FD928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FF574BB1FC514D9000FD928 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6FF574E01FC52034000FD928 /* MTPHttpRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPHttpRequestManager.h; sourceTree = "<group>"; };
+		6FF574E11FC52034000FD928 /* MTPHttpRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPHttpRequestManager.m; sourceTree = "<group>"; };
+		6FF574E51FC529FC000FD928 /* MTPLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPLogger.h; sourceTree = "<group>"; };
+		6FF574E61FC529FC000FD928 /* MTPLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPLogger.m; sourceTree = "<group>"; };
+		6FF574EB1FC52E29000FD928 /* MTPRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPRandom.h; sourceTree = "<group>"; };
+		6FF574EC1FC52E29000FD928 /* MTPRandom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPRandom.m; sourceTree = "<group>"; };
+		6FF574EE1FC52EBD000FD928 /* MTPSignatureSecret.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPSignatureSecret.h; sourceTree = "<group>"; };
+		6FF574EF1FC52EBD000FD928 /* MTPSignatureSecret.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPSignatureSecret.m; sourceTree = "<group>"; };
+		6FF574F31FC55337000FD928 /* MTPConstant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPConstant.h; sourceTree = "<group>"; };
+		6FF574F41FC556F7000FD928 /* MTPMD5Digest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPMD5Digest.h; sourceTree = "<group>"; };
+		6FF574F51FC556F7000FD928 /* MTPMD5Digest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPMD5Digest.m; sourceTree = "<group>"; };
+		6FF574FA1FC562B7000FD928 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		6FF574FB1FC562B7000FD928 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		6FF574FD1FC569CE000FD928 /* MTPHMACAuthentication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPHMACAuthentication.h; sourceTree = "<group>"; };
+		6FF574FE1FC569CE000FD928 /* MTPHMACAuthentication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPHMACAuthentication.m; sourceTree = "<group>"; };
+		6FF575001FC56C32000FD928 /* MTPBase64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPBase64.h; sourceTree = "<group>"; };
+		6FF575011FC56C32000FD928 /* MTPBase64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPBase64.m; sourceTree = "<group>"; };
+		6FF575031FC5756D000FD928 /* MTPTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPTool.h; sourceTree = "<group>"; };
+		6FF575041FC5756D000FD928 /* MTPTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPTool.m; sourceTree = "<group>"; };
+		6FF575061FC576DA000FD928 /* MTPTextUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTPTextUtils.h; sourceTree = "<group>"; };
+		6FF575071FC576DA000FD928 /* MTPTextUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTPTextUtils.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FF574A61FC514D9000FD928 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6F42C89F1FC7C4E600C809AF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6F42C8A91FC7F47300C809AF /* MTPTradeWayPopupView.h */,
+				6F42C8AA1FC7F47300C809AF /* MTPTradeWayPopupView.m */,
+				6F42C8AC1FC7F48F00C809AF /* MTPTradeWayCollectionViewCell.h */,
+				6F42C8AD1FC7F48F00C809AF /* MTPTradeWayCollectionViewCell.m */,
+				6F42C8B21FC8000800C809AF /* MTPWebViewManager.h */,
+				6F42C8B31FC8000800C809AF /* MTPWebViewManager.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6FF574A01FC514D9000FD928 = {
+			isa = PBXGroup;
+			children = (
+				6FF574AB1FC514D9000FD928 /* MTPToolDemo */,
+				6FF574AA1FC514D9000FD928 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6FF574AA1FC514D9000FD928 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FF574A91FC514D9000FD928 /* MTPToolDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6FF574AB1FC514D9000FD928 /* MTPToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6FF574DE1FC51539000FD928 /* MTPTool */,
+				6FF574AC1FC514D9000FD928 /* AppDelegate.h */,
+				6FF574AD1FC514D9000FD928 /* AppDelegate.m */,
+				6FF574AF1FC514D9000FD928 /* ViewController.h */,
+				6FF574B01FC514D9000FD928 /* ViewController.m */,
+				6FF574B21FC514D9000FD928 /* Main.storyboard */,
+				6FF574B51FC514D9000FD928 /* Assets.xcassets */,
+				6FF574B71FC514D9000FD928 /* LaunchScreen.storyboard */,
+				6FF574BA1FC514D9000FD928 /* Info.plist */,
+				6FF574BB1FC514D9000FD928 /* main.m */,
+			);
+			path = MTPToolDemo;
+			sourceTree = "<group>";
+		};
+		6FF574DE1FC51539000FD928 /* MTPTool */ = {
+			isa = PBXGroup;
+			children = (
+				6F42C89F1FC7C4E600C809AF /* view */,
+				6FF574F11FC52F17000FD928 /* model */,
+				6FF574E41FC527CE000FD928 /* utils */,
+				6FF574E31FC523F6000FD928 /* log */,
+				6FF574DF1FC51F63000FD928 /* net */,
+				6FF575031FC5756D000FD928 /* MTPTool.h */,
+				6FF575041FC5756D000FD928 /* MTPTool.m */,
+			);
+			path = MTPTool;
+			sourceTree = "<group>";
+		};
+		6FF574DF1FC51F63000FD928 /* net */ = {
+			isa = PBXGroup;
+			children = (
+				6FF574E01FC52034000FD928 /* MTPHttpRequestManager.h */,
+				6FF574E11FC52034000FD928 /* MTPHttpRequestManager.m */,
+			);
+			path = net;
+			sourceTree = "<group>";
+		};
+		6FF574E31FC523F6000FD928 /* log */ = {
+			isa = PBXGroup;
+			children = (
+				6FF574E51FC529FC000FD928 /* MTPLogger.h */,
+				6FF574E61FC529FC000FD928 /* MTPLogger.m */,
+			);
+			path = log;
+			sourceTree = "<group>";
+		};
+		6FF574E41FC527CE000FD928 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				6FF574FA1FC562B7000FD928 /* OrderedDictionary.h */,
+				6FF574FB1FC562B7000FD928 /* OrderedDictionary.m */,
+				6FF574EB1FC52E29000FD928 /* MTPRandom.h */,
+				6FF574EC1FC52E29000FD928 /* MTPRandom.m */,
+				6FF574EE1FC52EBD000FD928 /* MTPSignatureSecret.h */,
+				6FF574EF1FC52EBD000FD928 /* MTPSignatureSecret.m */,
+				6FF574F41FC556F7000FD928 /* MTPMD5Digest.h */,
+				6FF574F51FC556F7000FD928 /* MTPMD5Digest.m */,
+				6FF574FD1FC569CE000FD928 /* MTPHMACAuthentication.h */,
+				6FF574FE1FC569CE000FD928 /* MTPHMACAuthentication.m */,
+				6FF575001FC56C32000FD928 /* MTPBase64.h */,
+				6FF575011FC56C32000FD928 /* MTPBase64.m */,
+				6FF575061FC576DA000FD928 /* MTPTextUtils.h */,
+				6FF575071FC576DA000FD928 /* MTPTextUtils.m */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		6FF574F11FC52F17000FD928 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6FF574F31FC55337000FD928 /* MTPConstant.h */,
+				6F42C8A61FC7CC0800C809AF /* MTPTradeWayModel.h */,
+				6F42C8A71FC7CC0800C809AF /* MTPTradeWayModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6FF574A81FC514D9000FD928 /* MTPToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FF574D51FC514D9000FD928 /* Build configuration list for PBXNativeTarget "MTPToolDemo" */;
+			buildPhases = (
+				6FF574A51FC514D9000FD928 /* Sources */,
+				6FF574A61FC514D9000FD928 /* Frameworks */,
+				6FF574A71FC514D9000FD928 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTPToolDemo;
+			productName = MTPToolDemo;
+			productReference = 6FF574A91FC514D9000FD928 /* MTPToolDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6FF574A11FC514D9000FD928 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "陈荐东";
+				TargetAttributes = {
+					6FF574A81FC514D9000FD928 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6FF574A41FC514D9000FD928 /* Build configuration list for PBXProject "MTPToolDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6FF574A01FC514D9000FD928;
+			productRefGroup = 6FF574AA1FC514D9000FD928 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FF574A81FC514D9000FD928 /* MTPToolDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FF574A71FC514D9000FD928 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FF574B91FC514D9000FD928 /* LaunchScreen.storyboard in Resources */,
+				6FF574B61FC514D9000FD928 /* Assets.xcassets in Resources */,
+				6FF574B41FC514D9000FD928 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6FF574A51FC514D9000FD928 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F42C8A81FC7CC0800C809AF /* MTPTradeWayModel.m in Sources */,
+				6FF574FC1FC562B7000FD928 /* OrderedDictionary.m in Sources */,
+				6FF574F61FC556F7000FD928 /* MTPMD5Digest.m in Sources */,
+				6F42C8AE1FC7F48F00C809AF /* MTPTradeWayCollectionViewCell.m in Sources */,
+				6FF574FF1FC569CE000FD928 /* MTPHMACAuthentication.m in Sources */,
+				6FF574ED1FC52E29000FD928 /* MTPRandom.m in Sources */,
+				6F42C8B41FC8000800C809AF /* MTPWebViewManager.m in Sources */,
+				6FF574B11FC514D9000FD928 /* ViewController.m in Sources */,
+				6FF575021FC56C32000FD928 /* MTPBase64.m in Sources */,
+				6FF574BC1FC514D9000FD928 /* main.m in Sources */,
+				6FF575081FC576DA000FD928 /* MTPTextUtils.m in Sources */,
+				6F42C8AB1FC7F47300C809AF /* MTPTradeWayPopupView.m in Sources */,
+				6FF575051FC5756D000FD928 /* MTPTool.m in Sources */,
+				6FF574AE1FC514D9000FD928 /* AppDelegate.m in Sources */,
+				6FF574F01FC52EBD000FD928 /* MTPSignatureSecret.m in Sources */,
+				6FF574E21FC52034000FD928 /* MTPHttpRequestManager.m in Sources */,
+				6FF574E71FC529FC000FD928 /* MTPLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6FF574B21FC514D9000FD928 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF574B31FC514D9000FD928 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6FF574B71FC514D9000FD928 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6FF574B81FC514D9000FD928 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6FF574D31FC514D9000FD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6FF574D41FC514D9000FD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6FF574D61FC514D9000FD928 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQL7XSGLCX;
+				INFOPLIST_FILE = MTPToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msymobile.MTPToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6FF574D71FC514D9000FD928 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YQL7XSGLCX;
+				INFOPLIST_FILE = MTPToolDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.msymobile.MTPToolDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6FF574A41FC514D9000FD928 /* Build configuration list for PBXProject "MTPToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF574D31FC514D9000FD928 /* Debug */,
+				6FF574D41FC514D9000FD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FF574D51FC514D9000FD928 /* Build configuration list for PBXNativeTarget "MTPToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FF574D61FC514D9000FD928 /* Debug */,
+				6FF574D71FC514D9000FD928 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6FF574A11FC514D9000FD928 /* Project object */;
+}

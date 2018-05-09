@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="扩展信息（选填）" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZZE-Ko-a5D">
+                                <rect key="frame" x="20" y="120" width="335" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="068-nk-IN8">
+                                <rect key="frame" x="156" y="328.5" width="62" height="30"/>
+                                <state key="normal" title="原生弹窗"/>
+                                <connections>
+                                    <action selector="buttonClickEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="leo-og-NSt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="110" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ywp-Qj-YRM">
+                                <rect key="frame" x="156" y="388.5" width="62" height="30"/>
+                                <state key="normal" title="自定义"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="自定义订单号（必填）" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2uB-VP-CYh">
+                                <rect key="frame" x="20" y="70" width="335" height="30"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ywp-Qj-YRM" firstAttribute="top" secondItem="068-nk-IN8" secondAttribute="bottom" constant="30" id="6LW-JK-Qzv"/>
+                            <constraint firstItem="2uB-VP-CYh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="9go-8X-Bqn"/>
+                            <constraint firstItem="068-nk-IN8" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ALq-w1-Z1N"/>
+                            <constraint firstItem="2uB-VP-CYh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="HFS-CA-0xC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2uB-VP-CYh" secondAttribute="trailing" constant="20" id="Lkh-gl-TSv"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZZE-Ko-a5D" secondAttribute="trailing" constant="20" symbolic="YES" id="Qz0-R7-BMr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ywp-Qj-YRM" secondAttribute="trailing" constant="20" symbolic="YES" id="aVx-hl-KSb"/>
+                            <constraint firstItem="ZZE-Ko-a5D" firstAttribute="leading" secondItem="2uB-VP-CYh" secondAttribute="leading" id="gCj-Ss-eDa"/>
+                            <constraint firstItem="ZZE-Ko-a5D" firstAttribute="top" secondItem="2uB-VP-CYh" secondAttribute="bottom" constant="20" id="hiG-Nd-RV6"/>
+                            <constraint firstItem="ZZE-Ko-a5D" firstAttribute="width" secondItem="2uB-VP-CYh" secondAttribute="width" id="hp1-lV-a3Z"/>
+                            <constraint firstItem="068-nk-IN8" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oR4-zq-os9"/>
+                            <constraint firstItem="Ywp-Qj-YRM" firstAttribute="leading" secondItem="068-nk-IN8" secondAttribute="leading" id="oph-kC-tEQ"/>
+                            <constraint firstItem="Ywp-Qj-YRM" firstAttribute="width" secondItem="068-nk-IN8" secondAttribute="width" id="xGi-df-sEW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="attachTextField" destination="ZZE-Ko-a5D" id="Udv-iR-sS6"/>
+                        <outlet property="custemButton" destination="Ywp-Qj-YRM" id="jms-vN-h0G"/>
+                        <outlet property="nativeButton" destination="068-nk-IN8" id="e1h-0s-ZpA"/>
+                        <outlet property="orderNumTextField" destination="2uB-VP-CYh" id="3ur-qf-v4z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>

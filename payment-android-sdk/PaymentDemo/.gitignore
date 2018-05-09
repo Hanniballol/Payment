@@ -1,0 +1,15 @@
+# AndroidStudioGitIgnore
+Android Studio .gitignore
+
+bin/
+gen/
+out/
+build/
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+.DS_Store
+*.iml
+.idea
+.gradle
